@@ -1,4 +1,4 @@
-package CharacterRoles;
+package Game.CharacterRoles;
 
 public class CHARACTER {
     //public String name;

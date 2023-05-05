@@ -1,8 +1,8 @@
-package CharacterRoles;
+package Game.CharacterRoles;
 
 public class Brawler extends CHARACTER {
-    public Brawler(int life) {
-        this.life = life;
+    public Brawler() {
+        this.life = 40;
         //this.armour = armour;
     }
 }
