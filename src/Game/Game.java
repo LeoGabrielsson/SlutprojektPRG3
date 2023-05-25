@@ -1,12 +1,12 @@
 package Game;
 
-import Game.CharacterRoles.Brawler;
-import Game.GameParts.CharacterSelect;
-public class Game {
-    private String selected;
-    public static void main(String[] args) {
-        new CharacterSelect(selectedCharacter);
+import Game.GameParts.GameMechanics;
 
-        System.out.println(Brawler.life);
+public class Game {
+
+    public static void main(String[] args) {
+        new GameMechanics();
+
+        //System.out.println(CharacterSelect.B.life);
     }
 }

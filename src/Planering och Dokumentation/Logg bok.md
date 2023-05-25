@@ -11,3 +11,6 @@ Hjälp
 Gårdagens problem är fixat.
 Sorterade filer in i mappar för att lättare hitta saker.
 Försöker att skapa en fungerande character select men filen Game.java kan inte hitta de nödvändiga string:arna från CharachterSelect.java
+
+## 25 maj
+Börjat skapa databasen och ska imorgon försöka koppla den till GameMechanics.java
