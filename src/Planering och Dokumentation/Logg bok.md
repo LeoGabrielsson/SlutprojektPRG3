@@ -14,3 +14,6 @@ Försöker att skapa en fungerande character select men filen Game.java kan inte
 
 ## 25 maj
 Börjat skapa databasen och ska imorgon försöka koppla den till GameMechanics.java
+
+## 26 maj
+Jag ignorerade gårdagens mål för idag och kopplade istället ihop Fights.java filen med GameMechanics.java som i sin tur kopplades till en Controller vid namn GameBrain.java

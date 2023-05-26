@@ -5,8 +5,8 @@ import Game.CharacterRoles.Brawler;
 import static javax.swing.JOptionPane.showInputDialog;
 
 public class GameMechanics {
-    public static String selected;
-    public static Brawler B;
+    public String selected;
+    public Brawler B;
 
     public GameMechanics() {
         selected = showInputDialog(null, "Select character:" +
@@ -19,13 +19,11 @@ public class GameMechanics {
             System.out.println("Character selected" +
                     "\n\n"
                     + B.name + ": It's not a blood sport without a little blood!");
+            new Fights();
         } else {
             System.out.println("Error selecting character");
             System.exit(4);
         }
-    }
 
-    public void brawlerFights(){
-        Fights.Fight1();
     }
 }
