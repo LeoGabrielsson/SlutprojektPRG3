@@ -6,7 +6,7 @@ import static javax.swing.JOptionPane.showInputDialog;
 
 public class GameMechanics {
     public String selected;
-    public Brawler B;
+    public Brawler Hero;
 
     public GameMechanics() {
         selected = showInputDialog(null, "Select character:" +
@@ -15,10 +15,10 @@ public class GameMechanics {
                 "\n Mage W.I.P");
 
         if (selected.equals("Brawler") || selected.equals("brawler")) {
-            B = new Brawler();
+            Hero = new Brawler();
             System.out.println("Character selected" +
                     "\n\n"
-                    + B.name + ": It's not a blood sport without a little blood!");
+                    + Hero.name + ": It's not a blood sport without a little blood!");
             new Fights();
         } else {
             System.out.println("Error selecting character");
