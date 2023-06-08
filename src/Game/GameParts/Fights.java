@@ -8,7 +8,6 @@ public class Fights {
 
     public Fights() {
         f1();
-        f2();
     }
 
     private void f1() {

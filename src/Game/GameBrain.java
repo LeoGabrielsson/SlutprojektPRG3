@@ -1,20 +1,22 @@
 package Game;
 
+import Game.GameParts.Database;
 import Game.GameParts.GameMechanics;
 
 public class GameBrain {
-    private GameMechanics model;
+    public GameMechanics model;
+    public Database data;
 
-    public GameBrain(GameMechanics model) {//controller
+    public GameBrain(GameMechanics model, Database data) {//controller
+        this.data = data;
         this.model = model;
 
+        data.getDB();
+        model.CharacterSelect();
+        data.updateCharStats();
 
-    }
 
-    public GameMechanics getModel() {
-        return model;
-    }
-    public void setModel(GameMechanics model) {
-        this.model = model;
+
+
     }
 }

@@ -8,7 +8,8 @@ public class GameMechanics {
     public String selected;
     public Brawler Hero;
 
-    public GameMechanics() {
+    public GameMechanics() {}
+        public void CharacterSelect(){
         selected = showInputDialog(null, "Select character:" +
                 "\n Brawler" +
                 "\n Rogue W.I.P" +
@@ -18,8 +19,8 @@ public class GameMechanics {
             Hero = new Brawler();
             System.out.println("Character selected" +
                     "\n\n"
-                    + Hero.name + ": It's not a blood sport without a little blood!");
-            new Fights();
+                    + Hero.name + ": It's not a blood sport without a little blood!" +
+                    "\n");
         } else {
             System.out.println("Error selecting character");
             System.exit(4);

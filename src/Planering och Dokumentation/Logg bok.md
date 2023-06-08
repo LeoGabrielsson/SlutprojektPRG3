@@ -24,3 +24,6 @@ som i sin tur kopplades till en Controller vid namn GameBrain.java
 ## 1 juni
 Jag har fixat en temporär lösning 
 så att det går att testköra fight 1 (f1).
+
+## 8 juni
+Databas kan nästan uppdateras. Detta blir antagligen den sista uppdateringen
